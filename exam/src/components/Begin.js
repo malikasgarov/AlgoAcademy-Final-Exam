@@ -1,4 +1,4 @@
-import "./Begin.css";
+import "./css/Begin.css";
 import React from "react";
 import image1 from "../images/image1.png";
 

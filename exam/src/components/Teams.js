@@ -1,4 +1,4 @@
-import "./Teams.css";
+import "./css/Teams.css";
 import image from "../images/Group 21.png"
 
 

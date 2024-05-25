@@ -1,4 +1,4 @@
-import "./Whyqubly.css";
+import "./css/Whyqubly.css";
 
 
 

@@ -1,0 +1,52 @@
+div.About {
+    position: relative;
+    margin-top: 200px;
+}
+
+div.AboutDetails {}
+
+div.aboutbigword {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+
+div.aboutdetail {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+div.aboutdetail img{
+    width: 80px;
+    height: 80px;
+}
+
+div.abut {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.textcenter{
+    text-align: center;
+}
+
+
+
+
+.background1 {
+    position: absolute;
+    top: 1200;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url('../../images/Path\ 606.png');
+    background-size: cover;
+    background-position: center;
+    height: 696px;
+    width: 100%;
+}

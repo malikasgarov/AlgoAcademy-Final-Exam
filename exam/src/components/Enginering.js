@@ -1,4 +1,4 @@
-import "./Enginering.css";
+import "./css/Enginering.css";
 import image from "../images/image 6.png"
 
 
