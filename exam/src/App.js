@@ -5,6 +5,7 @@ import Whyqubly from "./components/Whyqubly.js";
 import Teams from "./components/Teams.js";
 import Enginering from './components/Enginering.js';
 import About from './components/About.js';
+import Sign from './components/Sign.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Teams />
       <Enginering />
       <About />
+      <Sign />
     </div>
   );
 }
