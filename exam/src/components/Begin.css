@@ -12,6 +12,7 @@ div.release {
     align-self: flex-start;
     gap: 12px;
     background-color: #F7F1FF;
+    align-items: center;
     display: inline-block;
 }
 

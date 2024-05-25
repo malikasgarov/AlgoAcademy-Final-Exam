@@ -1,26 +1,16 @@
-div.Teams {
-    margin-top: 150px;
+div.Enginering {
     display: flex;
-    align-items: center;
-    gap: 100px;
+    margin-top: 100px;
 }
 
-div.teamsection1 img {
-    width: 100%;
-}
-
-div.teamsection1 {
+div.leftside {
     flex: 1;
-}
-
-div.teamsection2 {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    flex: 1;
 }
 
-div.svgofteam {
+div.engineringsvg {
     align-items: center;
     border-radius: 20px;
     padding: 8px 16px;
@@ -30,27 +20,29 @@ div.svgofteam {
     background-color: #F7F1FF;
 }
 
-span.wordofsvg {
-    color: #722ED1;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 16px;
-    text-align: left;
+div.rightside {
+    flex: 1;
 }
 
-div.bigwordofteams {
+div.rightside img {
+    width: 100%;
+}
+
+div.engineringbigword {
     font-family: Metropolis;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
     text-align: left;
+    color: #160637;
 }
 
-div.smallwordofteams {
+div.enginerinsmallword {
     color: #8989A2;
 }
+
 @media (max-width: 700px) {
-    div.Teams {
+    div.Enginering {
         flex-direction: column;
         gap: 50px;
     }    
