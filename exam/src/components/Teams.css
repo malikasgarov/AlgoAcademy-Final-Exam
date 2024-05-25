@@ -1,0 +1,58 @@
+div.Teams {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+div.teamsection1 img {
+    width: 100%;
+}
+
+div.teamsection1 {
+    flex: 1;
+}
+
+div.teamsection2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+}
+
+div.svgofteam {
+    /* display: flex; */
+    align-items: center;
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: flex;
+    align-self: flex-start;
+    gap: 12px;
+    background-color: #F7F1FF;
+}
+
+span.wordofsvg {
+    color: #722ED1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+div.bigwordofteams {
+    font-family: Metropolis;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+
+div.smallwordofteams {
+    color: #8989A2;
+}
+@media (max-width: 700px) {
+    div.Teams {
+        flex-direction: column;
+        gap: 50px;
+    }    
+}

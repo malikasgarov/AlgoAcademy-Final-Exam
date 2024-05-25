@@ -1,0 +1,79 @@
+div.Begin {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+div.release {
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: flex;
+    align-self: flex-start;
+    gap: 12px;
+    background-color: #F7F1FF;
+    display: inline-block;
+}
+
+div.Begin1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+div.bigword {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+div.littleword {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.5;
+}
+
+a.asd {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    color: white;
+    background-color: #722ED1;
+    padding: 12px 24px;
+    border-radius: 23px;
+}
+
+a.asd1 {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    color: #722ED1;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 23px;
+}
+div.beginphoto img{
+    width: 100%;
+}
+
+div.beginbuttons {
+    display: flex;
+    gap: 10px;
+}
+
+.colorpurple {
+    color: #722ED1;
+}
+
+@media (min-width: 1200px){
+    div.Begin{
+        gap: 48px;
+    }
+}
