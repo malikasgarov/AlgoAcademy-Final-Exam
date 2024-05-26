@@ -91,3 +91,10 @@ div.beginbuttons {
         gap: 48px;
     }
 }
+
+
+@media (max-width:768px) {
+    div.Begin{
+        flex-wrap: wrap;
+    }
+}

@@ -1,8 +1,7 @@
 @font-face {
   font-family: Metropolis;
-  src: url("./Fonts/Metrophobic-Regular.ttf");
+  src: url("./Fonts/metropolis.medium.otf");
 }
-
 
 body, html {
   margin: 0;

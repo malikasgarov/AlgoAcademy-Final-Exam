@@ -182,3 +182,8 @@ div.signingoogle {
 div.signingoogle img {
     cursor: pointer;
 }
+@media (max-width:800px) {
+    div.Sign{
+        display: block;
+    }
+}

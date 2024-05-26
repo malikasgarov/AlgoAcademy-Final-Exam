@@ -71,3 +71,9 @@ div.skillsmallword {
     text-align: center;
     color: #8989A2;
 }
+
+@media (max-width:800px) {
+    div.skills{
+        flex-wrap: wrap;
+    }
+}
