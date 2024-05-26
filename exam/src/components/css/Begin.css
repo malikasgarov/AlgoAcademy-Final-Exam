@@ -47,6 +47,12 @@ a.asd {
     background-color: #722ED1;
     padding: 12px 24px;
     border-radius: 23px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+a.asd:hover{
+    color: #722ED1;
+    background-color: white;
 }
 
 a.asd1 {
@@ -59,6 +65,12 @@ a.asd1 {
     background-color: white;
     padding: 12px 24px;
     border-radius: 23px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+a.asd1:hover{
+    color: white;
+    background-color: #722ED1;
 }
 div.beginphoto img{
     width: 100%;

@@ -27,5 +27,11 @@ div.freetrial a{
     padding: 12px 24px;
     display: inline-block;
     border-radius: 23px;
+    transition: all;
+    transition-duration: 0.5s;
 }
- 
+
+div.freetrial a:hover{
+    background-color: #722ED1;
+    color: white;
+}

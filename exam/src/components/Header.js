@@ -21,7 +21,7 @@ function Header() {
                     <a href="#" className="weight">Contact Us</a>
                     <a href="#" className="weight">Login</a>
                 <div className="freetrial">
-                    <a href="#" className="weight">Start free trial</a>
+                    <a href="#">Start free trial</a>
                 </div>
                 </div>
             </div>

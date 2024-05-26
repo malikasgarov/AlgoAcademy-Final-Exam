@@ -123,6 +123,12 @@ button.startfree {
     border-radius: 4px;
     border: none;
     padding: 8px 16px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+button.startfree:hover{
+    background-color:#F9F0FF;
+    color: #722ED1;
 }
 
 /* .rightsideofsign button {
@@ -173,5 +179,6 @@ button.startfree {
 div.signingoogle {
     text-align: center;
 }
-
-div.signingoogle img {}
+div.signingoogle img {
+    cursor: pointer;
+}

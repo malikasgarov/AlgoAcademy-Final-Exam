@@ -2,6 +2,7 @@ footer.foot {
     display: flex;
     gap: 32px;
     margin-top: 100px;
+    justify-content:space-between;
 }
 
 /* ---------------Part 1 -------------------- */
@@ -51,10 +52,7 @@ div.part2 div {
 }
 
 /* -----------------Part 6------------------ */
-
-
 div.part6 {}
-
 div.email {
     display: flex;
     justify-content: space-between;
@@ -63,14 +61,19 @@ div.email {
     padding: 8px 16px;
     width: 150px;
 }
-
 div.emailword {
     opacity: 0.5;
 }
-
-
-
-
+@media (max-width:900px) {
+    footer.foot{
+        gap: 16px;
+    }
+}
+@media (max-width:750px) {
+    footer.foot{
+        gap: 6px;
+    }
+}
 
 
 div.finish {
