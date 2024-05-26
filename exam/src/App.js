@@ -6,6 +6,7 @@ import Teams from "./components/Teams.js";
 import Enginering from './components/Enginering.js';
 import About from './components/About.js';
 import Sign from './components/Sign.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Enginering />
       <About />
       <Sign />
+      <Footer />
     </div>
   );
 }

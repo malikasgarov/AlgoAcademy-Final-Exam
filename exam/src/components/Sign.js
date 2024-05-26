@@ -38,7 +38,7 @@ function Sign() {
             </div>
             <div className="rightsideofsign">
                 <h2 className="center">Sign Up</h2>
-                <button>Start your free trial</button>
+                <button className="startfree">Start your free trial</button>
                 <input type="email" placeholder="Your primary email" />
                 <input type="password" placeholder="Password" />
                 <input type="password" placeholder="Re-type Password" />

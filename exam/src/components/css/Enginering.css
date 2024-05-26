@@ -23,7 +23,9 @@ div.engineringsvg {
 div.rightside {
     flex: 1;
 }
-
+span.wordofsvg{
+    font-weight: 600;
+}
 div.rightside img {
     width: 100%;
 }
@@ -37,7 +39,7 @@ div.engineringbigword {
     color: #160637;
 }
 
-div.enginerinsmallword {
+div.engineringsmallword {
     color: #8989A2;
 }
 

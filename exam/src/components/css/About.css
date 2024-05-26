@@ -2,14 +2,18 @@ div.About {
     position: relative;
     margin-top: 200px;
 }
+div.profilname{
+    font-weight: 600;
+}
 
 div.AboutDetails {}
 
 div.aboutbigword {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 32px;
     text-align: center;
+    color: #160637;
 }
 
 div.aboutdetail {

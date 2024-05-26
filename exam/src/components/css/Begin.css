@@ -3,6 +3,7 @@ div.Begin {
     gap: 24px;
     justify-content: center;
     margin-top: 130px;
+    font-weight: 600;
 }
 
 div.release {
@@ -24,14 +25,13 @@ div.Begin1 {
 
 div.bigword {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 48px;
     text-align: left;
 }
 
 div.littleword {
     font-size: 16px;
-    font-weight: 500;
     line-height: 24px;
     text-align: left;
     opacity: 0.5;
@@ -71,6 +71,7 @@ div.beginbuttons {
 
 .colorpurple {
     color: #722ED1;
+    font-weight: 600;
 }
 
 @media (min-width: 1200px){

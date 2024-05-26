@@ -1,0 +1,83 @@
+footer.foot {
+    display: flex;
+    gap: 32px;
+    margin-top: 100px;
+}
+
+/* ---------------Part 1 -------------------- */
+
+div.part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* flex: 16; */
+}
+
+div.part1word {
+    color: #160637;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    align-self: flex-start;
+    font-weight: 600;
+}
+
+div.part1logo {
+    display: flex;
+    gap: 8px;
+}
+
+/* ------------Part 2---------------- */
+
+div.part2 {
+    /* flex: 16; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #160637;
+}
+
+div.part2 h3 {
+    font-weight: 800;
+    line-height: 16px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+div.part2 div {
+    font-weight: 600;
+}
+
+/* -----------------Part 6------------------ */
+
+
+div.part6 {}
+
+div.email {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 9px 0px #0000000D;
+    justify-items: center;
+    padding: 8px 16px;
+    width: 150px;
+}
+
+div.emailword {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+div.finish {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color: #160637;
+}

@@ -21,7 +21,7 @@ div.whyeye {
 
 div.eyeword {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
     text-align: left;
     color: #722ED1;
@@ -32,6 +32,7 @@ div.whybigword {
     font-weight: 700;
     line-height: 40px;
     text-align: center;
+    color: #160637;
 }
 
 div.whylittleword {
@@ -55,11 +56,12 @@ div.skill {
 }
 
 div.skillbigword {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 800;
     line-height: 24px;
     text-align: center;
     color: #160637;
+    margin-bottom: 8px;
 }
 
 div.skillsmallword {
