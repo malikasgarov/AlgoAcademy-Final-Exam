@@ -31,12 +31,46 @@ div.aboutdetail img{
 
 div.abut {
     margin-top: 30px;
-    display: flex;
+    /* display: flex; */
+    /* flex-direction: column; */
     justify-content: space-between;
+    /* gap: 20px; */
+}
+div.bigabut{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+div.abut1{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+div.abut2{
+    align-items: center;
+    display: none;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
 }
 
 div.textcenter{
     text-align: center;
+}
+@media (max-width:768px) {
+    div.abut1, div.abut2{
+        display: flex !important;
+    }
+    div.bigabut{
+        display: none;
+    }
+
+    div.abut{
+        gap: 20px;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+    }
 }
 
 

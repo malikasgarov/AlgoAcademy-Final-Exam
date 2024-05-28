@@ -4,12 +4,15 @@ header.head{
     justify-content: space-between;
     
 }
+.svgofheader{
+    display: none;
+}
 div.componentsofheader{
     display: flex;
 }
 div.headerlinks{
     display: flex;
-    gap: 40px;
+    gap: 28px;
     align-items: center;
 }
 

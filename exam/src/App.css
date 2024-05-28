@@ -3,7 +3,8 @@
   src: url("./Fonts/metropolis.medium.otf");
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -28,35 +29,68 @@ body, html {
   width: 100%;
 }
 
-
-@media (min-width: 576px) {
-  .container{
-      width: 100%;
+@media (min-width:546px) {
+  .container {
+    width: 100%;
+  }
+  body {
+    padding: 8px;
   }
 }
+
+@media (max-width:546px) {
+  body {
+    padding: 8px;
+  }
+  .svgofheader {
+    display: block !important;
+  }
+  a.weight{
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (max-width: 576px) {
+  div.abut1{
+    gap: 20px !important;
+  }
+}
+
 @media (min-width: 768px) {
-  .container{
-      width:720px;
+  .container {
+    width: 720px;
   }
 }
 
-@media (min-width: 992px) { 
-  .container{
-      width: 960px;
+@media (max-width:768px) {
+  div.headerlinks {
+    gap: 12px !important;
   }
 }
 
-@media (min-width: 1200px) {  
-  .container{
-      width: 1140px;
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
   }
 }
 
-@media (min-width: 1400px) { 
-  .container{
-      width: 1320px;
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
   }
 }
-.container{
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+
+.container {
   margin: auto;
 }
