@@ -3,11 +3,6 @@ div.Sign {
     display: flex;
 }
 
-
-div.rightsideofsign {
-    flex: 1;
-}
-
 div.xett {
     display: flex;
     align-items: center;
@@ -69,21 +64,49 @@ div.logosf {
 
 
 div.rightsideofsign {
-    flex-direction: column;
+    flex: 1;
+    /* border: 26px solid #F9F0FF;
+    border-top: none; */
+    /* flex-direction: column;
     gap: 16px;
     display: flex;
     padding: 32px 40px;
     border: 26px solid #F9F0FF;
     border-top: none;
-    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 12px 0px #8989A21F;
+    background-color: white;
+    border-radius: 8px; */
+}
+form.signform{
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+    padding: 32px 40px;
+    box-shadow: 4px 4px 12px 0px #8989A21F;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+}
+div.backgroundofsign,
+div.background1ofsign{
+    position: absolute;
+    background-color: #F9F0FF;
+    border-radius: 8px;
+}
+div.backgroundofsign,
+div.background1ofsign{
+    top: 9%;
+    z-index: -1;
+    width: 100%;
+    left: -8%;
+}
+div.background1ofsign{
+    left: 7%;
 }
 
 div.leftsideofsign {
     flex: 1;
     padding: 32px 40px;
-    box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.1);
-    border: 26px solid #F9F0FF;
-    border-bottom: none;
 }
 
 div.startfreetrial {
@@ -181,6 +204,6 @@ div.signingoogle img {
 }
 @media (max-width:800px) {
     div.Sign{
-        display: block;
+        flex-direction: column;
     }
 }

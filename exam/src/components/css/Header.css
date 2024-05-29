@@ -6,6 +6,7 @@ header.head{
 }
 .svgofheader{
     display: none;
+    fill: #722ED1;
 }
 div.componentsofheader{
     display: flex;

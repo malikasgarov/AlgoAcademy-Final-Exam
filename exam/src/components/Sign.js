@@ -1,7 +1,17 @@
 import "./css/Sign.css";
 import image from "../images/btn_google_signin_dark_normal_web@2x.png";
+import { useEffect } from "react";
 
 function Sign() {
+    useEffect(() => {
+        let form = document.getElementById("signform");
+        let formheight = form.offsetHeight;
+        let correctheight = formheight;
+        let element = document.getElementById("backgroundofsign");
+        let element1 = document.getElementById("background1ofsign")
+        element.style.height = `${correctheight}px`;
+        element1.style.height = `${correctheight}px`
+    }, [])
     return (
         <div className="Sign container">
             <div className="leftsideofsign">
@@ -37,17 +47,21 @@ function Sign() {
                 </div>
             </div>
             <div className="rightsideofsign">
-                <h2 className="center">Sign Up</h2>
-                <button className="startfree">Start your free trial</button>
-                <input type="email" placeholder="Your primary email" />
-                <input type="password" placeholder="Password" />
-                <input type="password" placeholder="Re-type Password" />
-                <h3 className="center">OR</h3>
-                <div className="signingoogle">
-                    <img src={image} alt="error404"></img>
-                </div>
-                <hr className="width100"></hr>
-                <div class="login-link">Already have an account? <a href="#">Login</a></div>
+                <form className="signform" id="signform">
+                    <div className="backgroundofsign" id="backgroundofsign"></div>
+                    <div className="background1ofsign" id="background1ofsign"></div>
+                    <h2 className="center">Sign Up</h2>
+                    <button className="startfree">Start your free trial</button>
+                    <input type="email" placeholder="Your primary email" />
+                    <input type="password" placeholder="Password" />
+                    <input type="password" placeholder="Re-type Password" />
+                    <h3 className="center">OR</h3>
+                    <div className="signingoogle">
+                        <img src={image} alt="error404"></img>
+                    </div>
+                    <hr className="width100"></hr>
+                    <div class="login-link">Already have an account? <a href="#">Login</a></div>
+                </form>
             </div>
         </div>
     );
